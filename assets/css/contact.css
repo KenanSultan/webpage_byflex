@@ -1,0 +1,32 @@
+.label{
+    width: 100%;
+    font-family: Verdana, Tahoma, sans-serif, Times, serif;
+    font-size: 20px;
+    line-height: 1.4em;
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 7px;
+}
+
+.input{
+    width: 97%;
+    font-family: Verdana, Tahoma, sans-serif, Times, serif;
+    font-size: 14px;
+    line-height: 1.4em;
+    color: rgb(133, 132, 132);
+    padding: 7px;
+}
+
+.btn{
+    background-color: rgb(70, 160, 168);
+    color: white;
+    border: 0;
+    padding: 10px 25px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.text{
+    height: 120px;
+}

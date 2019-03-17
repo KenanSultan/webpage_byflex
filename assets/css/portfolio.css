@@ -1,0 +1,21 @@
+section .left-col .image {
+    position: relative;
+    display: inline-block;
+    margin-right: 11px;
+    margin-bottom: 15px;
+}
+
+section .left-col .image img {
+    width: 300px;
+}
+
+section .left-col .image .upwrite {
+    text-align: center;
+    background-color: rgb(70, 160, 168);
+    position: absolute;
+    width: 300px;
+    padding: 20px 0px;
+    color: white;
+    bottom: 20px;
+    font-size: 20px;
+}
