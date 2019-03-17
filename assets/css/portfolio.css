@@ -1,21 +1,31 @@
-section .left-col .image {
+section .portfolio-row {
+    text-align: center;
+}
+
+section .portfolio-row h2 {
+    text-align: left;
+}
+
+section .image {
     position: relative;
     display: inline-block;
-    margin-right: 11px;
     margin-bottom: 15px;
 }
 
-section .left-col .image img {
+section .image img {
     width: 300px;
+    padding: 5px 15px;
 }
 
-section .left-col .image .upwrite {
+section .image .upwrite {
     text-align: center;
     background-color: rgb(70, 160, 168);
     position: absolute;
     width: 300px;
     padding: 20px 0px;
+    margin-left: 15px;
     color: white;
     bottom: 20px;
     font-size: 20px;
 }
+
