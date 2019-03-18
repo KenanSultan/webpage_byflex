@@ -25,6 +25,9 @@ header {
     background-color: #fff;
     border-bottom: 2px solid #ccc;
     margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 header .logo {
@@ -61,7 +64,11 @@ header .menu a + a::before {
     font-family: serif;
     font-weight: 100;
     margin-right: 17px;
-    color: rgb(204, 204, 204)
+    color: rgb(204, 204, 204);
+}
+
+.body-cont {
+    padding-top: 130px;
 }
 
 section .left-col {

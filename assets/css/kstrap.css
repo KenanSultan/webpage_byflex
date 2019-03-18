@@ -103,4 +103,8 @@
     header .logo {
         width: 100% !important;
     }
+
+    .body-cont {
+        padding-top: 200px !important;
+    }
 }
